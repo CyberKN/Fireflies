@@ -1,0 +1,115 @@
+﻿Build started 5/6/2025 9:46:45 AM.
+     1>Project "C:\Users\Kurt\Documents\Fireflies 1.1 Source\Submersible\Submersible.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Fireflies.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\FMOD /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 2DBoundingBox.cpp AnimatedSprite.cpp Button.cpp ChoiceChecker.cpp Clock.cpp Cursor.cpp D3DRenderer.cpp DInputKeyboard.cpp DInputMouse.cpp DialogBox.cpp Editor.cpp Explosion.cpp ExplosionManager.cpp Game.cpp GameEntity.cpp IGCamera.cpp IGViewport.cpp INIParser.cpp Lantern.cpp LanternManager.cpp LevelPreviewer.cpp Menu.cpp MenuItem.cpp NameForm.cpp NodeLink.cpp NodeLinkManager.cpp Player.cpp PlayerManager.cpp Session.cpp SoundManager.cpp SpatialManager.cpp SpatialNode.cpp Sprite.cpp SpriteDataShell.cpp SpriteGDI.cpp SpriteManager.cpp TextBox.cpp TextManager.cpp TipBox.cpp Tutorial.cpp Unit.cpp UnitManager.cpp Vertex.cpp eXInput.cpp main.cpp
+         2DBoundingBox.cpp
+         AnimatedSprite.cpp
+         Button.cpp
+         ChoiceChecker.cpp
+         Clock.cpp
+         Cursor.cpp
+         D3DRenderer.cpp
+         DInputKeyboard.cpp
+         DInputMouse.cpp
+         DialogBox.cpp
+         Editor.cpp
+         Explosion.cpp
+         ExplosionManager.cpp
+         Game.cpp
+         GameEntity.cpp
+         IGCamera.cpp
+         IGViewport.cpp
+         INIParser.cpp
+         Lantern.cpp
+         LanternManager.cpp
+         Compiling...
+         LevelPreviewer.cpp
+         Menu.cpp
+         MenuItem.cpp
+         NameForm.cpp
+         NodeLink.cpp
+         NodeLinkManager.cpp
+         Player.cpp
+         PlayerManager.cpp
+         Session.cpp
+         SoundManager.cpp
+         SpatialManager.cpp
+         SpatialNode.cpp
+         Sprite.cpp
+         SpriteDataShell.cpp
+         SpriteGDI.cpp
+         SpriteManager.cpp
+         TextBox.cpp
+         TextManager.cpp
+         TipBox.cpp
+         Tutorial.cpp
+         Compiling...
+         Unit.cpp
+         UnitManager.cpp
+         Vertex.cpp
+         eXInput.cpp
+         main.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kurt\Documents\Fireflies 1.1 Source\Release\Fireflies.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" winmm.lib d3d9.lib d3dx9.lib dinput8.lib DXGuid.lib XInput.lib ..\FMOD\fmodex_vc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Fireflies.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Kurt\Documents\Fireflies 1.1 Source\Release\Fireflies.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\Kurt\Documents\Fireflies 1.1 Source\Release\Fireflies.lib" /MACHINE:X86 Release\Submersible1.res
+         Release\2DBoundingBox.obj
+         Release\AnimatedSprite.obj
+         Release\Button.obj
+         Release\ChoiceChecker.obj
+         Release\LevelPreviewer.obj
+         Release\MenuItem.obj
+         Release\Clock.obj
+         Release\Cursor.obj
+         Release\D3DRenderer.obj
+         Release\DialogBox.obj
+         Release\DInputKeyboard.obj
+         Release\DInputMouse.obj
+         Release\Editor.obj
+         Release\eXInput.obj
+         Release\Explosion.obj
+         Release\ExplosionManager.obj
+         Release\Game.obj
+         Release\GameEntity.obj
+         Release\IGCamera.obj
+         Release\IGViewport.obj
+         Release\INIParser.obj
+         Release\Lantern.obj
+         Release\LanternManager.obj
+         Release\main.obj
+         Release\Menu.obj
+         Release\NameForm.obj
+         Release\NodeLink.obj
+         Release\NodeLinkManager.obj
+         Release\Player.obj
+         Release\PlayerManager.obj
+         Release\Session.obj
+         Release\SoundManager.obj
+         Release\SpatialManager.obj
+         Release\SpatialNode.obj
+         Release\Sprite.obj
+         Release\SpriteDataShell.obj
+         Release\SpriteGDI.obj
+         Release\SpriteManager.obj
+         Release\TextBox.obj
+         Release\TextManager.obj
+         Release\TipBox.obj
+         Release\Tutorial.obj
+         Release\Unit.obj
+         Release\UnitManager.obj
+         Release\Vertex.obj
+         Generating code
+         Finished generating code
+         Submersible.vcxproj -> C:\Users\Kurt\Documents\Fireflies 1.1 Source\Release\Fireflies.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Kurt\Documents\Fireflies 1.1 Source\Release\Fireflies.exe;#1" /manifest Release\Fireflies.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Fireflies.unsuccessfulbuild".
+         Touching "Release\Fireflies.lastbuildstate".
+     1>Done Building Project "C:\Users\Kurt\Documents\Fireflies 1.1 Source\Submersible\Submersible.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.06
